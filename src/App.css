@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  border: 1px solid #ffba80;
+    width: 90%;
+    margin: 10px auto auto auto;
+    height: 100%;
+}
+
+.App button, .gravarBanco{
+  margin: 10px;
+  color: white !important;
+  border: none;
+  border-radius: 20px;
+  background-color: #ffba80;
+  width: 20%;
+  height: 30px;
+  font-weight: bolder;
+}
+
+.App ul{
+  border: 0.5px solid #2085a5;
+  margin: 20px 20px 20px 20px;
+  height: 100%;
+  list-style-type: none;
+  background-color: #ffba80;
+  color: white;
+  padding: 0;
+}
+
+.App li{
+  border: 1px solid #2085a5;
+}
+
+.App h3{
+      color: #2085a5;
+}
+
+.App input{
+  width: 90%;
+  margin: 10px;
+  border: none;
+  border-bottom: 1px solid #ffba80;
+  color: #2085a5;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 310px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
